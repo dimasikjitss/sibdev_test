@@ -11,7 +11,10 @@
 * docker building
     
     - `docker-compose build`
-    
+ 
+* create super user by command:
+    -`docker-compose run web python manage.py createsuperuser`
+
 * start project commond
 
     - `docker-compose up`
